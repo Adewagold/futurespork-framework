@@ -3,8 +3,15 @@
 //include config.php
 
 require('config.php');
-require('classes/bootstrap.php');
+require('classes/Bootstrap.php');
+require('classes/Controller.php');
+require('controller/home.php');
 
 $bootstrap = new bootstrap($_GET);
-$bootstrap->createController();
+$controller = $bootstrap->createController();
+
+
+if ($controller) {
+	$controller->executeAction();
+}
 
