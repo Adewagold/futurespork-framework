@@ -4,6 +4,6 @@ Class Home extends Controller
 {
 	protected function $index()
 	{
-		echo "HOME/Index"; 
+		echo "This is HOME/Index"; 
 	}
 }
