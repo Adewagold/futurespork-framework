@@ -1,10 +1,10 @@
 <?php
 
-Class Home extends Controller
+Class Users extends Controller
 {
 	protected function index()
 	{
-		echo "This is HOME/Index"; 
+		echo "User Index is working"; 
 	}
 
 	public function aboutUs()

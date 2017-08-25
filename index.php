@@ -5,7 +5,8 @@
 require('config.php');
 require('classes/Bootstrap.php');
 require('classes/Controller.php');
-require('controller/home.php');
+require('controllers/home.php');
+require('controllers/UserController.php');
 
 $bootstrap = new bootstrap($_GET);
 $controller = $bootstrap->createController();

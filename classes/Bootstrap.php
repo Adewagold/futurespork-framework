@@ -32,7 +32,7 @@ class bootstrap
 		if (class_exists($this->controller)) {
 			$parent = class_parents($this->controller);
 			//check to see if the class is extended
-			if (in_array("Controller", $parents)) {
+			if (in_array("Controller", $parent)) {
 				if (method_exists($this->controller,$this->action)) {
 					return new $this->controller($this->action, $this->request);
 				}
