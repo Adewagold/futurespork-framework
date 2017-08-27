@@ -5,9 +5,9 @@
 class ShareModel extends Model
 	{
 		public function index(){
-		$this->query('SELECT * FROM shares');
+		$this->query('SELECT * FROM share');
 		$rows = $this->resultSet();
-		print_r($rows);
+		return $rows;
 		}
 	}
  ?>
