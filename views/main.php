@@ -4,6 +4,6 @@
 	<title>ShareBoad Application</title>
 </head>
 <body>
-THis is a shareboad application
+<?php require($view) ?>
 </body>
 </html>
