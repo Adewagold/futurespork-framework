@@ -2,10 +2,12 @@
 /**
 * 
 */
-class ShareModel
+class ShareModel extends Model
 	{
 		public function index(){
-			return;
+		$this->query('SELECT * FROM shares');
+		$rows = $this->resultSet();
+		print_r($rows);
 		}
 	}
  ?>

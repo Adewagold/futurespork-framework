@@ -5,9 +5,9 @@
 class Share extends Controller
 {
 	
-	protected function index()
+	public function index()
 	{
-		$viewModel = new HomeModel();
+		$viewModel = new ShareModel();
 		$this->ReturnView($viewModel->index(),true);
 	}
 }
