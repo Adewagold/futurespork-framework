@@ -5,9 +5,10 @@
 class Share extends Controller
 {
 	
-	public function index()
+	protected function index()
 	{
-		echo "Share Paged";
+		$viewModel = new HomeModel();
+		$this->ReturnView($viewModel->index(),true);
 	}
 }
  ?>

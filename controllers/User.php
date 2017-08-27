@@ -4,7 +4,8 @@ Class Users extends Controller
 {
 	protected function index()
 	{
-		echo "User Index is working"; 
+		$viewModel = new HomeModel();
+		$this->ReturnView($viewModel->index(),true);
 	}
 
 	public function aboutUs()
