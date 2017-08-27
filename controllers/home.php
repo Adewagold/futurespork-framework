@@ -4,11 +4,9 @@ Class Home extends Controller
 {
 	protected function index()
 	{
-		echo "This is HOME/Index"; 
+		$viewModel = new HomeModel();
+		$this->ReturnView($viewModel->index(),true);
 	}
 
-	public function aboutUs()
-	{
-		echo "This is the about us page";
-	}
+	
 }
