@@ -30,10 +30,10 @@
         </form>
         <ul class="navbar-nav navbar-right">
           <li class="nav-item active">
-            <a class="nav-link" href="<?php echo ROOT_URL ?>">Login <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="<?php echo ROOT_URL ?>users/login">Login <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="<?php echo ROOT_URL ?>share">Register</a>
+            <a class="nav-link disabled" href="<?php echo ROOT_URL ?>users/register">Register</a>
           </li>
          
         </ul>
