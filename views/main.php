@@ -23,7 +23,7 @@
             <a class="nav-link" href="<?php echo ROOT_URL ?>">User</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="<?php echo ROOT_URL ?>">Share</a>
+            <a class="nav-link disabled" href="<?php echo ROOT_URL ?>share">Share</a>
           </li>
          
         </ul>
