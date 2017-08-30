@@ -13,7 +13,7 @@
       </div>
       <?php
 			foreach ($viewModel as $item) : ?>
-				<div class="well">
+				<div class="card card-body">
 					<h3><?php echo $item['title'] ?> </h3>
 					<small><?php echo $item['create_date'] ?> </small>
 					<hr/>
