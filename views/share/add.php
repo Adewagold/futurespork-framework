@@ -7,9 +7,12 @@
   </button>
 </p>
 <div class="collapse" id="collapseExample">
-  <div class="card card-body">
-  <label>Share Title</label>
+  <div class="card card-body
+  <div class="form-group">
+    	
+    </div>  <label>Share Title</label>
     <input type="text" name="title" class="input-group">
+    </div>
   </div>
 </div>
 	<div class="row">
