@@ -8,7 +8,8 @@
 </p>
 <div class="collapse" id="collapseExample">
   <div class="card card-body">
-    <input type="text" name="">
+  <label>Share Title</label>
+    <input type="text" name="title" class="input-group">
   </div>
 </div>
 	<div class="row">
