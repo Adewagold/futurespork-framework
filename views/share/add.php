@@ -22,13 +22,13 @@
 
     <div class="form-group">
      <label>Share Link</label>
-    <input type="text" name="title" class="form-control">
+    <input type="text" name="link" class="form-control">
     </div>
 
     <div class="form-group">
-    	
-     <label>Share Title</label>
-    <input type="submit" class="btn btn-primary" name="title" class="form-control">
+ 
+    <input type="submit" class="btn btn-primary" value="Submit" class="form-control">
+    <input type="reset" class="btn btn-danger" class="form-control" value="Cancel">
     </div>
 
     </form>
