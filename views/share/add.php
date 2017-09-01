@@ -11,13 +11,13 @@
   <div class="form-group">
     	
     </div>  <label>Share Title</label>
-    <input type="text" name="title" class="input-group">
+    <input type="text" name="title" class="form-control">
     </div>
 
      <div class="form-group">
     	
     </div>  <label>Share Body</label>
-    <textarea></textarea> 
+    <textarea name="body" class="form-control"></textarea> 
     </div>
   </div>
 </div>
