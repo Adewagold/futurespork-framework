@@ -9,7 +9,7 @@
 <div class="collapse" id="collapseExample">
   <div class="card card-body">
   <div class="form-group">
-    	
+    	<form>
     </div>  <label>Share Title</label>
     <input type="text" name="title" class="form-control">
     </div>
@@ -31,6 +31,8 @@
     </div>  <label>Share Title</label>
     <input type="submit" class="btn btn-primary" name="title" class="form-control">
     </div>
+
+    </form>
   </div>
 </div>
 	<div class="row">
