@@ -19,6 +19,18 @@
     </div>  <label>Share Body</label>
     <textarea name="body" class="form-control"></textarea> 
     </div>
+
+    <div class="form-group">
+    	
+    </div>  <label>Share Link</label>
+    <input type="text" name="title" class="form-control">
+    </div>
+
+    <div class="form-group">
+    	
+    </div>  <label>Share Title</label>
+    <input type="submit" class="btn btn-primary" name="title" class="form-control">
+    </div>
   </div>
 </div>
 	<div class="row">
