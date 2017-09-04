@@ -1,12 +1,10 @@
-<div class="container-fluid">
-	<h1 class="text-center">Share Something!</h1>
-        <p>
+<div class="panel panel-default">
+  <div class="panel-heading">Share something</div>
+  <div class="panel-body">
+    	
  
-  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-    Add new shares
-  </button>
-</p>
-<div class="collapse" id="collapseExample">
+
+
   <div class="card card-body">
   <div class="form-group">
     	<form>
@@ -36,5 +34,10 @@
 </div>
 	<div class="row">
 </div>
+
 </div>
+
+
+
+
 
