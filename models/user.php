@@ -4,7 +4,7 @@
 */
 class UserModel
 	{
-		public function index(){
+		public function register(){
 			return;
 		}
 	}
