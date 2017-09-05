@@ -7,7 +7,7 @@
 
   <div class="card card-body">
   <div class="form-group">
-    	<form method="post" action="<?php ?>">
+    	<form method="GET" action="<?php $_SERVER['PHP_SELF']; ?>">
      <label>Share Title</label>
     <input type="text" name="title" class="form-control">
     </div>
@@ -16,7 +16,7 @@
     	
       <label>Share Body</label>
     <textarea name="body" class="form-control">
-    	
+
     </textarea> 
     </div>
 
