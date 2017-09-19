@@ -8,4 +8,9 @@ class UserModel
 			return;
 		}
 	}
+
+	public function index()
+	{
+		return;
+	}
  ?>
