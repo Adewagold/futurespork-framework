@@ -1,11 +1,6 @@
-<?php 
-/**
-* 
-*/
-class HomeModel
-	{
-		public function index(){
-			return;
-		}
+<?php
+class HomeModel extends Model{
+	public function Index(){
+		return;
 	}
- ?>
+}
